@@ -16,7 +16,7 @@ export default function Home() {
   const [active, setActive] = useState([false, false, false, false, false]);
   return (
     <div className='w-full p-10 m-10'>
-      <div className='grid place-items-center w-5/6 m-auto bg-slate-600 bg-opacity-20 rounded-2xl'>
+      <div className='grid place-items-center w-5/6 m-auto bg-slate-600 px-10 py-2 bg-opacity-20 rounded-2xl'>
       {data.map((que)=>{
         return (
             <div className='w-full' key={que.idx}>
@@ -46,7 +46,7 @@ const Accordion = ({question, answer, turn, setTurn, idx}: Props) => {
 return (
   <div className='flex flex-col items-center justify-center w-full px-2 text-lg lg:text-base'>
     <button onClick={handler} className={`m-2 border-2 border-slate-600 rounded-lg px-5 shadow cursor-pointer w-full h-full ${turn![idx]}`}>
-      <div className='py-3'>
+      <div className='py-2'>
          <div className='flex items-center justify-between h-14 text-left'>
             <span className='ml-2 font-light lg:text-lg text-sm text-amber-400'>{question}</span>
             {/* <div>
