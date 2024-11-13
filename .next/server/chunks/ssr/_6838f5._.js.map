@@ -1,9 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/mymac/Documents/Projects/Open%20Source%20stuff/awadh-hack/app/layout.tsx"],"sourcesContent":["import \"./globals.css\";\nimport { Poppins } from 'next/font/google'\n\n\nconst poppins = Poppins({\n  subsets: ['latin'],\n  weight: '100'\n})\nexport default function RootLayout({\n  children,\n}: Readonly<{\n  children: React.ReactNode;\n}>) {\n  \n  return (\n    <html lang=\"en\">\n      <body>\n        {children}\n      </body>\n    </html>\n  );\n}\n"],"names":[],"mappings":";;;;;;;;AAQe,SAAS,WAAW,EACjC,QAAQ,EAGR;IAEA,qBACE,8OAAC;QAAK,MAAK;kBACT,cAAA,8OAAC;sBACE;;;;;;;;;;;AAIT"}},
-    {"offset": {"line": 31, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
-    {"offset": {"line": 42, "column": 0}, "map": {"version":3,"sources":["file:///Users/mymac/Documents/Projects/Open%20Source%20stuff/awadh-hack/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = require('../../module.compiled').vendored[\n  'react-rsc'\n].ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":";AAAAA,OAAOC,OAAO,GAAGC,QAAQ,0HAAyBC,QAAQ,CACxD,YACD,CAACC,kBAAkB","ignoreList":[0]}},
-    {"offset": {"line": 44, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}
