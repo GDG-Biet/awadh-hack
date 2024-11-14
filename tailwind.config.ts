@@ -19,7 +19,7 @@ const config = {
     },
     extend: {
       backgroundImage:{
-        'lucknow': "url('/lucknow.png')",
+        'lucknow': "url('@/Assets/lucknow.png')",
         'pattern':"url('@/Assets/background.jpg')",
         'bgPattern':"url('@/Assets/pattern.jpg')",
 

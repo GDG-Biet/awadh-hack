@@ -1,5 +1,4 @@
 node_modules
 .next/
-.next-static/
-.next-server/
+
 .next
