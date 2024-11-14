@@ -1,8 +1,8 @@
 "use client"
 import { useState } from 'react'
 import Image from 'next/image'
-import heart from '@/assets/heart.svg'
-import data from "@/Data/faqdata.json"
+import abc from '@/assets/abc.svg'
+import data from "@/data/faqdata.json"
 import React, { Dispatch, SetStateAction, useEffect, useRef } from 'react'
 
 type Props = {
@@ -49,10 +49,10 @@ return (
       <div className='py-2'>
          <div className='flex items-center justify-between h-14 text-left'>
             <span className='ml-2 font-light lg:text-lg text-sm text-amber-400'>{question}</span>
-            {/* <div>
-             {turn![idx] ? <Image src={heart} alt="" width={20} height={20}/> :
-              <Image src={heart} alt="" width={20} height={20}/>}
-            </div> */}
+            <div>
+             {turn![idx] ? <Image src={abc} alt="" width={20} height={20}/> :
+              <Image src={abc} alt="" width={20} height={20}/>}
+            </div>
          </div>
          <div ref={contentRef} className='mx-4 overflow-hidden text-left transition-all duration-500 h-full'>
             <p className='py-1 font-normal leading-normal text-justify whitespace-pre-line text-xs lg:text-lg'>{answer}</p>
