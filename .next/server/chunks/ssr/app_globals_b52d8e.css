@@ -386,6 +386,10 @@ body {
   z-index: 40;
 }
 
+.z-50 {
+  z-index: 50;
+}
+
 .m-10 {
   margin: 2.5rem;
 }
@@ -997,6 +1001,16 @@ body {
   color: rgb(254 240 138 / var(--tw-text-opacity));
 }
 
+.text-orange-300 {
+  --tw-text-opacity: 1;
+  color: rgb(253 186 116 / var(--tw-text-opacity));
+}
+
+.text-yellow-300 {
+  --tw-text-opacity: 1;
+  color: rgb(253 224 71 / var(--tw-text-opacity));
+}
+
 .opacity-0 {
   opacity: 0;
 }
@@ -1007,6 +1021,14 @@ body {
 
 .opacity-90 {
   opacity: .9;
+}
+
+.opacity-50 {
+  opacity: .5;
+}
+
+.opacity-80 {
+  opacity: .8;
 }
 
 .shadow {
