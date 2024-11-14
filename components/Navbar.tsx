@@ -17,10 +17,10 @@ function Logo(){
 function Menu(){
     return<div>
         <ul className="flex justify-center gap-10 text-white">
-            <li className="font-semibold"><Link href="/">Home</Link></li>
-            <li className="font-semibold"><Link href="/partner">Partner</Link></li>
-            <li className="font-semibold"><Link href="/team">Team</Link></li>
-            <li className="font-semibold"><Link href="/contact">Contcct us</Link></li>
+            <li className="font-semibold"><a href="/">Home</a></li>
+            <li className="font-semibold"><a href="">Theme</a></li>
+            <li className="font-semibold"><a href="">Crew</a></li>
+            <li className="font-semibold"><a href="">Sponser</a></li>
         </ul>
     </div>
 }

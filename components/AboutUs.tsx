@@ -15,7 +15,7 @@ export default function AboutUs() {
         </div>
       </div>
       <div className="w-1/2">
-        <p className="text-2xl">
+        <p className="text-2xl text-white">
           {" "}
           We career aspirants equal opportunities and exposure as people in
           metro cities or all around the world get! We are determined to
