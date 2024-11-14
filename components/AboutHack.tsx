@@ -1,7 +1,10 @@
+"use client"
+import { Parallax } from "react-scroll-parallax";
 
 
 export default function AboutHack(){
-    return <div className="w-full bg-pattern h-[90vh] items-center rounded-full">
+    return <Parallax speed={-10}>
+    <div className="w-11/12 m-auto bg-pattern h-[90vh] items-center rounded-2xl">
     <div className="w-full h-full bg-black bg-opacity-50 flex justify-center items-center p-20">
       <p className="font-semibold text-2xl">HackTheSpace
 is
@@ -113,4 +116,5 @@ and
 effective</p>
     </div>
   </div>
+  </Parallax>
 }
