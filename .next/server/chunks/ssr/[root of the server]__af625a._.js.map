@@ -2,6 +2,6 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///home/kaif9999/codes/awadh-hack/app/provider.tsx"],"sourcesContent":["'use client';\n\nimport { ParallaxProvider } from 'react-scroll-parallax';\n\nexport default function Providers({ children }: { children: React.ReactNode }) {\n  return <ParallaxProvider>{children}</ParallaxProvider>;\n}"],"names":[],"mappings":";;;;AAEA;AAAA;AAFA;;;AAIe,SAAS,UAAU,EAAE,QAAQ,EAAiC;IAC3E,qBAAO,8OAAC,yMAAA,CAAA,mBAAgB;kBAAE;;;;;;AAC5B"}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///Users/mymac/Documents/Projects/Open%20Source%20stuff/awadh-hack/app/provider.tsx"],"sourcesContent":["'use client';\n\nimport { ParallaxProvider } from 'react-scroll-parallax';\n\nexport default function Providers({ children }: { children: React.ReactNode }) {\n  return <ParallaxProvider>{children}</ParallaxProvider>;\n}"],"names":[],"mappings":";;;;AAEA;AAAA;AAFA;;;AAIe,SAAS,UAAU,EAAE,QAAQ,EAAiC;IAC3E,qBAAO,8OAAC,yMAAA,CAAA,mBAAgB;kBAAE;;;;;;AAC5B"}},
     {"offset": {"line": 33, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
 }

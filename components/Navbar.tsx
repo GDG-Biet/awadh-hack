@@ -1,9 +1,10 @@
 import Image from "next/image"
 import logo from "@/Assets/logo.png"
+import Link from "next/link"
 export default function Navbar(){
     return<div className="w-full flex">
         <Logo></Logo>
-        <div className="w-1/3 bg-white bg-opacity-5 backdrop-blur-md rounded-full m-auto flex justify-center items-center p-5">
+        <div className="w-1/3 bg-slate-500 bg-opacity-5 backdrop-blur-md rounded-full m-auto flex justify-center items-center p-5">
         <Menu></Menu>
         </div>
     </div>
@@ -15,11 +16,11 @@ function Logo(){
 
 function Menu(){
     return<div>
-        <ul className="flex justify-center gap-5 text-white">
-            <li className="font-semibold">Home</li>
-            <li className="font-semibold">Partner</li>
-            <li className="font-semibold">Team</li>
-            <li className="font-semibold">Contact us</li>
+        <ul className="flex justify-center gap-10 text-white">
+            <li className="font-semibold"><a href="/">Home</a></li>
+            <li className="font-semibold"><a href="">Theme</a></li>
+            <li className="font-semibold"><a href="">Crew</a></li>
+            <li className="font-semibold"><a href="">Sponser</a></li>
         </ul>
     </div>
 }
