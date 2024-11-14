@@ -18,8 +18,6 @@ const config = {
       },
     },
     extend: {
-      backgroundImage:{
-      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
