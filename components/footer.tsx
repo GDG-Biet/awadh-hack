@@ -6,7 +6,7 @@ export function Footer(){
     return<div className="bg-black rounded-3xl m-5 p-3 border-t-2 border-amber-400">
         <div className="w-11/12 ml-20 flex justify-center h-40 gap-14 pt-5">
             <div className="w-2/3 h-20">
-            <h4 className="font-bold text-3xl">Explore:</h4>
+            <h4 className="font-bold text-3xl text-white">Explore:</h4>
                 <div className="w-10 h-1 bg-blue-500"></div>
                 <p className="text-xl font-medium text-amber-400"></p>
             </div>
