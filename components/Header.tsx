@@ -15,7 +15,7 @@ export default function Header(){
       <div className="w-1/2 bg-amber-500 px-20 py-3 text-center border-b-4 border-black" style={{borderRadius:"10px"}}><h3 className="text-black font-semibold ">Register</h3></div>
         <div className="w-1/2 bg-black px-20 py-3 text-center border-b-4 border-amber-500" style={{borderRadius:"10px"}}><h3 className="text-amber-500 font-semibold ">Discord</h3></div>
       </div>
-    4
+    
       <div className="absolute bottom-0 opacity-80"><Image src={lucknow} alt=""></Image></div>
       
       </div>
