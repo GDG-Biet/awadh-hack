@@ -8,6 +8,12 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage:{
+        'lucknow': "url('/lucknow.png')",
+        'pattern':"url('@/Assets/background.jpg')",
+        'bgPattern':"url('@/Assets/pattern.jpg')",
+
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

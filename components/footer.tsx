@@ -1,16 +1,19 @@
-
+import Image from "next/image";
+import logo from "@/Assets/logo.png"
 
 export function Footer(){
 
     return<div className="bg-black rounded-3xl m-5 p-3 border-t-2 border-amber-400">
-        <div className="w-5/6 m-auto flex justify-between h-40 gap-14 pt-5">
+        <div className="w-11/12 ml-20 flex justify-center h-40 gap-14 pt-5">
             <div className="w-2/3 h-20">
             <h4 className="font-bold text-3xl">Explore:</h4>
                 <div className="w-10 h-1 bg-blue-500"></div>
                 <p className="text-xl font-medium text-amber-400"></p>
             </div>
-            {/* <div className="w-full h-20 bg-red-500"></div> */}
-            <div className="w-2/3 h-20 flex flex-col gap-1">
+            <div className="w-full h-20 flex justify-center">
+                <Image className="rounded-2xl" src={logo} alt="" width={300} height={100}></Image>
+            </div>
+            <div className="w-2/3 h-20 flex flex-col justify-end gap-1">
                 <h4 className="font-bold text-3xl">Contact us:</h4>
                 <div className="w-10 h-1 bg-blue-500"></div>
                 <p className="text-xl font-medium text-amber-400">bietgdsc2023@gmail.com</p>
