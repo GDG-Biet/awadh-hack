@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "@/Assets/logo.png"
+import logo from "@/assets/logo.png"
 
 export function Footer(){
 
@@ -16,7 +16,7 @@ export function Footer(){
             <div className="w-2/3 h-20 flex flex-col justify-end gap-1">
                 <h4 className="font-bold text-3xl text-white">Contact us:</h4>
                 <div className="w-10 h-1 bg-blue-500"></div>
-                <p className="text-xl font-medium text-amber-400">bietgdsc2023@gmail.com</p>
+                <p className="text-xl font-medium text-amber-400">awadhhacks@gmail.com</p>
             </div>
             
         </div>

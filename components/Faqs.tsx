@@ -1,7 +1,7 @@
 "use client"
 import { useState } from 'react'
 import Image from 'next/image'
-import abc from '@/assets/abc.svg'
+import abc from '@/Assets/sun.svg'
 import data from "@/data/faqdata.json"
 import React, { Dispatch, SetStateAction, useEffect, useRef } from 'react'
 

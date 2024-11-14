@@ -1,5 +1,5 @@
 import Image from "next/image";
-import balcony from "@/Assets/balcony.jpg";
+import balcony from "@/assets/balcony.jpg";
 
 export default function AboutUs() {
   return (
