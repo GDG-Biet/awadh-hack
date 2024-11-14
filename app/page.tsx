@@ -40,7 +40,7 @@ export default function Home() {
     <h2 className="text-7xl text-white absolute bottom-0 left-[40%]">sponsors</h2>
     </div>
     {/* <Sponsers></Sponsers> */}
-    <div className="w-full bg-slate-500 bg-opacity-20"><h2 className="text-8xl text-amber-400 text-center">Sponser us?</h2></div>
+    <div className="w-full bg-slate-500 bg-opacity-20"><h2 className="text-3xl text-amber-400 text-center">Sponser us?</h2></div>
     <div className="relative m-20">
     <h2 className="text-9xl text-center text-slate-800 capitalize sticky">FAQs</h2>
     <h2 className="text-7xl text-white absolute bottom-0 left-[45%]">faqs</h2>
