@@ -19,7 +19,6 @@ const config = {
     },
     extend: {
       backgroundImage:{
-        // 'pattern':"url('./Assets/background.jpg')"
       },
       colors: {
         border: "hsl(var(--border))",
