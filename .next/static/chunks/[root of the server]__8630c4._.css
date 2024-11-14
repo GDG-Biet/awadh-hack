@@ -337,6 +337,10 @@ img, video {
   top: 2.5rem;
 }
 
+.z-20 {
+  z-index: 20;
+}
+
 .z-40 {
   z-index: 40;
 }
@@ -371,16 +375,16 @@ img, video {
   margin-right: 1.25rem;
 }
 
-.ml-10 {
-  margin-left: 2.5rem;
-}
-
 .ml-2 {
   margin-left: .5rem;
 }
 
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.ml-20 {
+  margin-left: 5rem;
 }
 
 .flex {
@@ -463,6 +467,10 @@ img, video {
   width: 100%;
 }
 
+.w-11\/12 {
+  width: 91.6667%;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -489,6 +497,14 @@ img, video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-center {
@@ -632,8 +648,24 @@ img, video {
   --tw-bg-opacity: .05;
 }
 
+.bg-opacity-50 {
+  --tw-bg-opacity: .5;
+}
+
+.bg-pattern {
+  background-image: url("../media/background.83748100.jpg");
+}
+
+.object-contain {
+  object-fit: contain;
+}
+
 .p-10 {
   padding: 2.5rem;
+}
+
+.p-20 {
+  padding: 5rem;
 }
 
 .p-3 {
@@ -683,6 +715,10 @@ img, video {
   padding-bottom: 1rem;
 }
 
+.pl-5 {
+  padding-left: 1.25rem;
+}
+
 .pt-5 {
   padding-top: 1.25rem;
 }
@@ -699,9 +735,19 @@ img, video {
   text-align: justify;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .text-7xl {
@@ -806,6 +852,10 @@ img, video {
   color: rgb(254 240 138 / var(--tw-text-opacity));
 }
 
+.opacity-90 {
+  opacity: .9;
+}
+
 .shadow {
   --tw-shadow: 0 1px 3px 0 #0000001a, 0 1px 2px -1px #0000001a;
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
@@ -822,6 +872,14 @@ img, video {
   transition-property: all;
   transition-timing-function: cubic-bezier(.4, 0, .2, 1);
   transition-duration: .15s;
+}
+
+.duration-200 {
+  transition-duration: .2s;
+}
+
+.duration-300 {
+  transition-duration: .3s;
 }
 
 .duration-500 {
@@ -844,6 +902,15 @@ body {
   color: var(--foreground);
   background: var(--background);
   overflow-x: hidden;
+}
+
+.hover\:border-b-8:hover {
+  border-bottom-width: 8px;
+}
+
+.hover\:border-amber-400:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(251 191 36 / var(--tw-border-opacity));
 }
 
 @media (width >= 768px) {

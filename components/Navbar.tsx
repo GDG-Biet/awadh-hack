@@ -1,3 +1,5 @@
+import Image from "next/image"
+import logo from "@/Assets/logo.png"
 export default function Navbar(){
     return<div className="w-full flex">
         <Logo></Logo>
@@ -8,7 +10,7 @@ export default function Navbar(){
 }
 
 function Logo(){
-    return<div className="ml-10 text-white w-auto h-auto p-5">LOGO</div>
+    return<div className=" text-white h-auto w-auto rounded-3xl pl-5"><Image className="object-contain rounded-3xl" height={150} width={150} src={logo} alt=""></Image></div>
 }
 
 function Menu(){
