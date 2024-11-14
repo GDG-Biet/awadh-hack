@@ -2,7 +2,7 @@
 import Navbar from "@/components/Navbar";
 import "./globals.css";
 import { Poppins } from 'next/font/google'
-
+import  Providers  from './provider';
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -19,10 +19,10 @@ export default function RootLayout({
     <html lang="en">
       
       <body className={poppins.className}>
-      <div className="w-full flex justify-center font-Lato fixed top-10 z-40">
+      <div className="w-full flex justify-center fixed top-10 z-40">
           <Navbar></Navbar>
         </div>
-        {children}
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
