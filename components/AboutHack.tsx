@@ -2,14 +2,6 @@
 import { Parallax } from "react-scroll-parallax";
 
 export default function AboutHack() {
-  // return <div className="w-full bg-gray-800 h-[90vh] items-center">
-  // <div className="grid grid-cols-2 m-5 p-2">
-  //   <div>
-  //     fcnv jg
-  //   </div>
-  //   <div>
-  //     ljlnlkn
-  //   </div>
   return (
     <Parallax speed={-10}>
       <div className="w-11/12 m-auto bg-pattern h-[90vh] items-center rounded-2xl">
