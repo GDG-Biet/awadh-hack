@@ -3,7 +3,7 @@ import logo from "@/Assets/logo.png"
 export default function Navbar(){
     return<div className="w-full flex">
         <Logo></Logo>
-        <div className="w-1/3 bg-white bg-opacity-5 backdrop-blur-md rounded-full m-auto border-2 border-orange-500 flex justify-center items-center p-5">
+        <div className="w-1/3 bg-white bg-opacity-5 backdrop-blur-md rounded-full m-auto flex justify-center items-center p-5">
         <Menu></Menu>
         </div>
     </div>
@@ -19,7 +19,7 @@ function Menu(){
             <li className="font-semibold">Home</li>
             <li className="font-semibold">Partner</li>
             <li className="font-semibold">Team</li>
-            <li className="font-semibold">Contcct us</li>
+            <li className="font-semibold">Contact us</li>
         </ul>
     </div>
 }
