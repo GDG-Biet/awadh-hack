@@ -23,14 +23,13 @@ export default function Header() {
               <h3 className="text-black font-semibold ">Register</h3>
             </button>
 
-            <Link href="https://discord.gg/fdNgdRE4">
               <div
                 className="w-1/2 bg-black px-20 py-3 text-center border-b-4 border-amber-500"
                 style={{ borderRadius: "10px" }}
               >
-                <h3 className="text-amber-500 font-semibold text-center ">Discord</h3>
+               <Link href="https://discord.gg/fdNgdRE4"><h3 className="text-amber-500 font-semibold text-center ">Discord</h3></Link>
               </div>
-            </Link>
+            
           </div>
 
           <div className="absolute bottom-0 opacity-80">
