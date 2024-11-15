@@ -1,7 +1,9 @@
+import path from "path";
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
+    domains: ['drive.google.com'],
     remotePatterns: [
       {
         protocol: 'https',
@@ -9,6 +11,10 @@ const nextConfig: NextConfig = {
         pathname: '**',
       },
     ],
+  },
+  webpack: (config) => {
+    config.resolve.alias['@'] = path.resolve(__dirname);
+    return config;
   },
 };
 
