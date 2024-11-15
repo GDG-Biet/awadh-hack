@@ -68,5 +68,6 @@
     overflow-x: hidden;
     color: whitesmoke;
     background-color: black;
+    scroll-behavior: smooth;
   }
 }

@@ -17,7 +17,7 @@ export default function Numbers(){
     </Parallax>
     <Parallax speed={-5}>
     <div className="w-60 h-60 p-5 flex justify-center items-center border-amber-700">
-      <div className="felx flex-col justify-center hover:border-b-8 hover:border-amber-400 text-6xl font-extrabold duration-300">
+      <div className="flex flex-col justify-center hover:border-b-8 hover:border-amber-400 text-6xl font-extrabold duration-300">
         <p className="text-center text-white">24+</p>
         <p className="text-center text-orange-600">Hours</p>
         

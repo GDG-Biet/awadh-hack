@@ -1,35 +1,42 @@
 [
-    {
-        "idx": 1,
-        "question":"What is GDG?",
-        "answer":"Googe Developer Groups (GDGs) are local communities of individuals wo have interest in technology and want to learn, connect, grow."
-    },
-    {
-        "idx": 2,
-        "question":"Who should Join GDG?",
-        "answer":"Anyone who is interested in learning about Google's technologies, connecting with other developers, and growing their skillset is encouraged to join Google Developer Groups"
-    },
-    {
-        "idx": 3,
-        "question":"What are the benefits as a member at GDG?",
-        "answer":"Google Developer Groups (GDGs) offer many benefits to their members, including: \n| Learning: Members can learn new skills through hands-on workshops and talks on a variety of technical topics. \n| Networking: Members can meet local developers with similar interests and build a global network of developers, industry experts, and Googlers.\n | Community: Members can collaborate and support each other in a community. GDGs aim to be inclusive and accessible, welcoming members of all skill levels.\n | Innovation: Members can share ideas and projects, and be inspired to innovate and tackle challenges using technology. "
-    },
-    {
-        "idx": 4,
-        "question":"What type of Events does GDG organize ?",
-        "answer": [
-            "Meetups: Regular gatherings where developers can meet, share ideas, and learn from each other.",
-            "\nWorkshops: Hands-on sessions where developers can learn new skills and techniques.",
-            "\nHackathons: Events where developers come together to solve a problem or build a project quickly.",
-            "\nConferences: Events that focus on Google technologies and the developer community.",
-            "\nOnline events: Virtual events such as webinars and virtual meetups.",
-            "\nOther events: Study groups, code jams, and social events."
-        ]
-
-    },
-    {
-        "idx": 5,
-        "question":"Do I need to have experience in google technology?",
-        "answer":"No, You need no prior knowledge of google technology."
-    }
+  {
+    "idx": 1,
+    "question": "What is a hackathon?",
+    "answer": "A hackathon can be best described as an “invention marathon”, or in simple words hackathons are about bringing your crazy ideas to reality. It’s an event where any tech-enthusiast, regardless of their individual field can come & participate to learn, build & share their creations over the course of a weekend, in a relaxed & productive environment. Hackathons are simply a venue for self-expression & creativity, where people come together & transform their thoughts into reality, through technology."
+  },
+  {
+    "idx": 2,
+    "question": "How big a team can be?",
+    "answer": "The minimum team size is two and the maximum team size is four."
+  },
+  {
+    "idx": 3,
+    "question": "Who all can participate?",
+    "answer": "This is a student hackathon and only students are allowed to participate. You will be required to verify at the event by showing your student ID card."
+  },
+  {
+    "idx": 4,
+    "question": "Do I need to have any specific qualifications to be a participant for the hackathon?",
+    "answer": "If you love to code, you are more than welcome to participate in the hackathon."
+  },
+  {
+    "idx": 5,
+    "question": "I'm not a citizen of India.Can I participate?",
+    "answer": "There is only one eligibility for this hackathon and that is Motivation. If you love to code and have an innovative brain then you are more than welcome. So yes, If you are an International Participant, You are always welcome to our hackathon."
+  },
+  {
+    "idx": 6,
+    "question": "I am a newbie, can I hack?",
+    "answer": "Of course you can! We at awadhHacks ensure that no one is left behind during the hacking, thanks to our mentors and volunteers who help us achieve the same. We make sure that you learn the best you can alongside having fun and experiencing what it feels to belong to a community."
+  },
+  {
+    "idx": 7,
+    "question": "Is there any registration fees for participation?",
+    "answer": "We don't want to monetize learning, community, and innovation. So, There is no participation/registration fees."
+  },
+  {
+    "idx": 8,
+    "question": "How big a team can be?",
+    "answer": "The minimum team size is two and the maximum team size is four."
+  }
 ]
