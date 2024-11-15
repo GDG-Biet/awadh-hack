@@ -71,7 +71,7 @@ export default function Crewcard() {
 
 
 
-        <div className="w-[320px] bg-white rounded-xl shadow-lg p-8 flex flex-col items-center">
+        <div className="w-[320px] bg-white rounded-xl shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform duration-200">
           {/* Profile Image */}
           <div className="w-auto h-auto rounded-lg overflow-hidden mb-4 border-4 border-gray-200">
             <Image
@@ -101,7 +101,7 @@ export default function Crewcard() {
         </div>
 
 
-        <div className="w-[320px] bg-white rounded-xl shadow-lg p-8 flex flex-col items-center">
+        <div className="w-[320px] bg-white rounded-xl shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform duration-200">
           {/* Profile Image */}
           <div className="w-auto h-auto rounded-lg overflow-hidden mb-4 border-4 border-gray-200">
             <Image
@@ -131,7 +131,7 @@ export default function Crewcard() {
         </div>
 
 
-        <div className="w-[320px] bg-white rounded-xl shadow-lg p-8 flex flex-col items-center">
+        <div className="w-[320px] bg-white rounded-xl shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform duration-200">
           {/* Profile Image */}
           <div className="w-auto h-auto rounded-lg overflow-hidden mb-4 border-4 border-gray-200">
             <Image
@@ -161,7 +161,7 @@ export default function Crewcard() {
         </div>
 
 
-        <div className="w-[320px] bg-white rounded-xl shadow-lg p-8 flex flex-col items-center">
+        <div className="w-[320px] bg-white rounded-xl shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform duration-200">
           {/* Profile Image */}
           <div className="w-auto h-auto rounded-lg overflow-hidden mb-4 border-4 border-gray-200">
             <Image
@@ -190,7 +190,7 @@ export default function Crewcard() {
           </div>
         </div>
 
-        <div className="w-[320px] bg-white rounded-xl shadow-lg p-8 flex flex-col items-center">
+        <div className="w-[320px] bg-white rounded-xl shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform duration-200">
           {/* Profile Image */}
           <div className="w-auto h-auto rounded-lg overflow-hidden mb-4 border-4 border-gray-200">
             <Image
@@ -219,7 +219,7 @@ export default function Crewcard() {
           </div>
         </div>
 
-        <div className="w-[320px] bg-white rounded-xl shadow-lg p-8 flex flex-col items-center">
+        <div className="w-[320px] bg-white rounded-xl shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform duration-200">
           {/* Profile Image */}
           <div className="w-auto h-auto rounded-lg overflow-hidden mb-4 border-4 border-gray-200">
             <Image
@@ -248,7 +248,7 @@ export default function Crewcard() {
           </div>
         </div>
 
-        <div className="w-[320px] bg-white rounded-xl shadow-lg p-8 flex flex-col items-center">
+        <div className="w-[320px] bg-white rounded-xl shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform duration-200">
           {/* Profile Image */}
           <div className="w-auto h-auto rounded-lg overflow-hidden mb-4 border-4 border-gray-200">
             <Image
@@ -277,7 +277,7 @@ export default function Crewcard() {
           </div>
         </div>
 
-        <div className="w-[320px] bg-white rounded-xl shadow-lg p-8 flex flex-col items-center">
+        <div className="w-[320px] bg-white rounded-xl shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform duration-200">
           {/* Profile Image */}
           <div className="w-auto h-auto rounded-lg overflow-hidden mb-4 border-4 border-gray-200">
             <Image
