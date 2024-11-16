@@ -55,7 +55,7 @@ export default function Crewcard() {
           {/* Amardeep and Outreach */}
           <div className="text-center mb-4">
             <h2 className="text-xl font-semibold text-gray-800">Amardeep Rao</h2>
-            <h3 className="text-gray-500">Outreach Coordinator</h3>
+            <h3 className="text-gray-500">Organizer</h3>
           </div>
 
           {/* Social Icons */}
@@ -86,7 +86,7 @@ export default function Crewcard() {
           {/* Name and Role */}
           <div className="text-center mb-4">
             <h2 className="text-xl font-semibold text-gray-800">Humaira Hashmi</h2>
-            <h3 className="text-gray-500">Community Manager</h3>
+            <h3 className="text-gray-500">Organizer</h3>
           </div>
 
           {/* Social Icons */}
@@ -116,7 +116,7 @@ export default function Crewcard() {
           {/* Name and Role */}
           <div className="text-center mb-4">
             <h2 className="text-xl font-semibold text-gray-800">Shivansh Saxena</h2>
-            <h3 className="text-gray-500">Technical-Lead</h3>
+            <h3 className="text-gray-500">Organizer</h3>
           </div>
 
           {/* Social Icons */}
@@ -146,7 +146,7 @@ export default function Crewcard() {
           {/* Name and Role */}
           <div className="text-center mb-4">
             <h2 className="text-xl font-semibold text-gray-800">Vikasdeep Sharma</h2>
-            <h3 className="text-gray-500">Event Manager</h3>
+            <h3 className="text-gray-500">Organizer</h3>
           </div>
 
           {/* Social Icons */}
@@ -176,7 +176,7 @@ export default function Crewcard() {
           {/* Name and Role */}
           <div className="text-center mb-4">
             <h2 className="text-xl font-semibold text-gray-800">Nitish Singh</h2>
-            <h3 className="text-gray-500">Mentorship Coordinator</h3>
+            <h3 className="text-gray-500">Organizer</h3>
           </div>
 
           {/* Social Icons */}
@@ -205,7 +205,7 @@ export default function Crewcard() {
           {/* Name and Role */}
           <div className="text-center mb-4">
             <h2 className="text-xl font-semibold text-gray-800">Aryan</h2>
-            <h3 className="text-gray-500">Judging Coordinator</h3>
+            <h3 className="text-gray-500">Organizer</h3>
           </div>
 
           {/* Social Icons */}
@@ -236,7 +236,7 @@ export default function Crewcard() {
           {/* Name and Role */}
           <div className="text-center mb-4">
             <h2 className="text-xl font-semibold text-gray-800">Kavyashree</h2>
-            <h3 className="text-gray-500">Volunteers Coordinator</h3>
+            <h3 className="text-gray-500">Organizer</h3>
           </div>
 
           {/* Social Icons */}
