@@ -1,42 +1,43 @@
 [
+    
   {
-    "idx": 1,
-    "question": "What is a hackathon?",
-    "answer": "A hackathon can be best described as an “invention marathon”, or in simple words hackathons are about bringing your crazy ideas to reality. It’s an event where any tech-enthusiast, regardless of their individual field can come & participate to learn, build & share their creations over the course of a weekend, in a relaxed & productive environment. Hackathons are simply a venue for self-expression & creativity, where people come together & transform their thoughts into reality, through technology."
+      "idx": 1,
+      "question":"What is a hackathon?",
+      "answer":"A hackathon can be best described as an “invention marathon”, or in simple words hackathons are about bringing your crazy ideas to reality. It’s an event where any tech-enthusiast, regardless of their individual field can come & participate to learn, build & share their creations over the course of a weekend, in a relaxed & productive environment. Hackathons are simply a venue for self-expression & creativity, where people come together & transform their thoughts into reality, through technology."
   },
   {
-    "idx": 2,
-    "question": "How big a team can be?",
-    "answer": "The minimum team size is two and the maximum team size is four."
+      "idx": 2,
+      "question":"How big a team can be?",
+      "answer":"The minimum team size is two and the maximum team size is four."
   },
   {
-    "idx": 3,
-    "question": "Who all can participate?",
-    "answer": "This is a student hackathon and only students are allowed to participate. You will be required to verify at the event by showing your student ID card."
+      "idx": 3,
+      "question":"Who all can participate?",
+      "answer":"This is a student hackathon and only students are allowed to participate. You will be required to verify at the event by showing your student ID card."
   },
   {
-    "idx": 4,
-    "question": "Do I need to have any specific qualifications to be a participant for the hackathon?",
-    "answer": "If you love to code, you are more than welcome to participate in the hackathon."
+      "idx": 4,
+      "question":"Do I need to have any specific qualifications to be a participant for the hackathon?",
+      "answer":"If you love to code, you are more than welcome to participate in the hackathon."
   },
   {
-    "idx": 5,
-    "question": "I'm not a citizen of India.Can I participate?",
-    "answer": "There is only one eligibility for this hackathon and that is Motivation. If you love to code and have an innovative brain then you are more than welcome. So yes, If you are an International Participant, You are always welcome to our hackathon."
+      "idx": 5,
+      "question":"I'm not a citizen of India.Can I participate?",
+      "answer":"There is only one eligibility for this hackathon and that is Motivation. If you love to code and have an innovative brain then you are more than welcome. So yes, If you are an International Participant, You are always welcome to our hackathon."
   },
   {
-    "idx": 6,
-    "question": "I am a newbie, can I hack?",
-    "answer": "Of course you can! We at awadhHacks ensure that no one is left behind during the hacking, thanks to our mentors and volunteers who help us achieve the same. We make sure that you learn the best you can alongside having fun and experiencing what it feels to belong to a community."
+      "idx": 6,
+      "question":"I am a newbie, can I hack?",
+      "answer":"Of course you can! We at hackCBS ensure that no one is left behind during the hacking, thanks to our mentors and volunteers who help us achieve the same. We make sure that you learn the best you can alongside having fun and experiencing what it feels to belong to a community."
   },
   {
-    "idx": 7,
-    "question": "Is there any registration fees for participation?",
-    "answer": "We don't want to monetize learning, community, and innovation. So, There is no participation/registration fees."
+      "idx": 7,
+      "question":"Is there any registration fees for participation?",
+      "answer":"We don't want to monetize learning, community, and innovation. So, There is no participation/registration fees."
   },
   {
-    "idx": 8,
-    "question": "How big a team can be?",
-    "answer": "The minimum team size is two and the maximum team size is four."
+      "idx": 8,
+      "question":"How big a team can be?",
+      "answer":"The minimum team size is two and the maximum team size is four."
   }
 ]
