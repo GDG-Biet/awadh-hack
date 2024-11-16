@@ -7,7 +7,6 @@ export default function Crew() {
       <h2 className="text-4xl font-bold text-white border-b-4 border-amber-400 duration-200">
         Meet the Team
       </h2>
-      <Stars />
       <Crewcard />
     </div>
   );

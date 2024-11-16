@@ -14,7 +14,7 @@ import Crew from "@/components/Crew";
 
 export default function Home() {
   return (
-    <div className="bg-gray-950">
+    <div className="bg-slate-900">
       <Header></Header>
 
       <div className="relative m-20" id="about">
