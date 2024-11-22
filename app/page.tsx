@@ -17,20 +17,20 @@ export default function Home() {
     <div className="bg-gray-950">
       <Header></Header>
 
-      <div className="relative m-20" id="about">
+      <div className="relative md:m-20 my-20" id="about">
         <h2 className="text-9xl text-center text-slate-800 capitalize">
           ABOUT US
         </h2>
-        <h2 className="text-7xl text-white absolute bottom-0 left-[40%]">
+        <h2 className="md:text-7xl text-4xl text-white absolute bottom-0 md:left-[40%] left-[35%]">
           about us
         </h2>
       </div>
       <AboutUs></AboutUs>
-      <div className="relative m-20">
+      <div className="relative md:m-20 my-20">
         <h2 className="text-9xl text-center text-slate-800 capitalize sticky">
           WHAT?
         </h2>
-        <h2 className="text-7xl text-white absolute bottom-0 left-[20%]">
+        <h2 className="md:text-7xl text-4xl text-white absolute bottom-0 md:left-[20%] left-[10%]">
           What is Awadh-Hack?
         </h2>
       </div>
@@ -38,31 +38,32 @@ export default function Home() {
 
       <Numbers></Numbers>
       <Parallax scale={[1, 1.5]}>
-        <div className="relative m-20" id="theme">
+        <div className="relative md:m-20 my-20" id="theme">
           <h2 className="text-9xl text-center text-slate-800 capitalize sticky">
             THEME
           </h2>
-          <h2 className="text-7xl text-white absolute bottom-0 left-[40%]">
+          <h2 className="md:text-7xl text-4xl text-white absolute bottom-0 md:left-[40%] left-[35%]">
             theme
           </h2>
         </div>
       </Parallax>
       <Theme></Theme>
-
+      <Parallax scale={[1, 1.2]}>
       <div className="relative m-20" id="crew">
         <h2 className="text-9xl text-center text-slate-800 capitalize sticky">
           CREW
         </h2>
-        <h2 className="text-7xl text-center text-white absolute bottom-0 left-[40%]">
+        <h2 className="md:text-7xl text-4xl text-center text-white absolute bottom-0 left-[40%]">
           crew
         </h2>
       </div>
+      </Parallax>
       <Crew />
-      <div className="relative m-20" id="sponsor">
-        <h2 className="text-9xl text-center text-slate-800 capitalize sticky">
+      <div className="relative md:m-20 my-20" id="sponsor">
+        <h2 className="md:text-9xl text-8xl text-center text-slate-800 capitalize sticky">
           SPONSORS
         </h2>
-        <h2 className="text-7xl text-white absolute bottom-0 left-[40%]">
+        <h2 className="md:text-7xl text-4xl text-white absolute bottom-0 md:left-[40%] left-[35%]">
           sponsors
         </h2>
       </div>
@@ -74,11 +75,11 @@ export default function Home() {
           </h2>
         </a>
       </div>
-      <div className="relative m-20">
+      <div className="relative md:m-20 my-20">
         <h2 className="text-9xl text-center text-slate-800 capitalize sticky">
           FAQs
         </h2>
-        <h2 className="text-7xl text-white absolute bottom-0 left-[45%]">
+        <h2 className="md:text-7xl text-4xl text-white absolute bottom-0 md:left-[45%] left-[40%]">
           faqs
         </h2>
       </div>

@@ -3,14 +3,14 @@ import logo from "@/Assets/logo.png";
 
 export function Footer() {
   return (
-    <div className="bg-black rounded-3xl m-5 p-3 border-t-2 border-amber-400">
-      <div className="w-11/12 ml-20 flex justify-center h-40 gap-14 pt-5">
+    <div className="bg-black rounded-3xl md:m-5 m-3 p-3 border-t-2 border-amber-400">
+      <div className="w-11/12 md:ml-20 my-10 items-center flex flex-col md:flex-row justify-center h-40 md:gap-14 pt-5">
         <div className="w-2/3 h-20">
           <h4 className="font-bold text-3xl text-white">Explore:</h4>
           <div className="w-10 h-1 bg-blue-500"></div>
           <p className="text-xl font-medium text-amber-400"></p>
         </div>
-        <div className="w-full h-20 flex justify-center">
+        <div className="w-full h-20 hidden md:flex justify-center">
           <Image
             className="rounded-2xl"
             src={logo}
@@ -19,7 +19,7 @@ export function Footer() {
             height={100}
           ></Image>
         </div>
-        <div className="w-2/3 h-20 flex flex-col justify-end gap-1">
+        <div className="w-2/3 h-20 flex flex-col md:justify-end gap-1">
           <h4 className="font-bold text-3xl text-white">Contact us:</h4>
           <div className="w-10 h-1 bg-blue-500"></div>
           <p className="text-xl font-medium text-amber-400">
