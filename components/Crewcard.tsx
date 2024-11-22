@@ -4,13 +4,9 @@ import { FaLinkedin, FaTwitterSquare } from "react-icons/fa";
 
 export default function Crewcard() {
   return (
-<<<<<<< HEAD
     //*https://drive.google.com/file/d/1jB4cDFvrRAdI2pZBbbxp9PQSpTqZIV3l/view?usp=drive_link
     //https://drive.google.com/file/d/1hgpJ2O7KKqr8cTLV3gs_Oc8_ooBeqb4R/view?usp=drive_link*//
     <div className="flex justify-center py-4">
-=======
-    <div className="flex justify-center px-4 py-4">
->>>>>>> 104fa4dfb909c3cf267944ab9d736277dff38fa6
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-screen-lg ">
         {/* Kaif*/}
         <div className="w-full bg-gray-200 rounded-xl shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform duration-200">
