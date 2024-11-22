@@ -5,7 +5,7 @@ import AboutUs from "@/components/AboutUs";
 import { Footer } from "@/components/footer";
 import Header from "@/components/Header";
 import Numbers from "@/components/Numbers";
-// import Sponsers from "@/components/Sponser"
+import Sponsers from "@/components/Sponser"
 import Theme from "@/components/Theme";
 import Faqs from "@/components/Faqs";
 import { Parallax } from "react-scroll-parallax";
@@ -14,7 +14,7 @@ import Crew from "@/components/Crew";
 
 export default function Home() {
   return (
-    <div className="bg-gray-950">
+    <div className="bg-slate-900">
       <Header></Header>
 
       <div className="relative md:m-20 my-20" id="about">
@@ -67,7 +67,7 @@ export default function Home() {
           sponsors
         </h2>
       </div>
-      {/* <Sponsers></Sponsers> */}
+      {/* <Sponsers /> */}
       <div className="w-full bg-slate-500 bg-opacity-20">
         <a href="mailto:awadhhacks@gmail.com">
           <h2 className="text-3xl text-amber-400 text-center cursor-pointer">

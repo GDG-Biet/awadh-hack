@@ -3,8 +3,13 @@ import logo from "@/Assets/logo.png";
 
 export function Footer() {
   return (
+<<<<<<< HEAD
     <div className="bg-black rounded-3xl md:m-5 m-3 p-3 border-t-2 border-amber-400">
       <div className="w-11/12 md:ml-20 my-10 items-center flex flex-col md:flex-row justify-center h-40 md:gap-14 pt-5">
+=======
+    <div className="bg-slate-950 rounded-3xl m-6 p-4 border-t-2 border-amber-400">
+      <div className="w-11/12 ml-20 flex justify-center h-40 gap-14 pt-5">
+>>>>>>> 104fa4dfb909c3cf267944ab9d736277dff38fa6
         <div className="w-2/3 h-20">
           <h4 className="font-bold text-3xl text-white">Explore:</h4>
           <div className="w-10 h-1 bg-blue-500"></div>
@@ -12,7 +17,7 @@ export function Footer() {
         </div>
         <div className="w-full h-20 hidden md:flex justify-center">
           <Image
-            className="rounded-2xl"
+            className="rounded-2xl bg-slate-900"
             src={logo}
             alt="awadhhacks-logo"
             width={300}
@@ -29,7 +34,7 @@ export function Footer() {
       </div>
       <div className="flex justify-between mx-5 text-gray-500 pb-4 flex-col-reverse md:flex-row">
         <p className="text-center md:text-left">
-          <i>© 2024-2025 Awadh Hack - BIET,Lucknow. All rights reserved.</i>
+          <i>© 2024-2025 Awadh Hacks - BIET, Lucknow. All rights reserved.</i>
         </p>
         <div className="flex md:flex-row gap-1 justify-center">
           <p>

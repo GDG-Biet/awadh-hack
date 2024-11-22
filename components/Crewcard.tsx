@@ -4,9 +4,13 @@ import { FaLinkedin, FaTwitterSquare } from "react-icons/fa";
 
 export default function Crewcard() {
   return (
+<<<<<<< HEAD
     //*https://drive.google.com/file/d/1jB4cDFvrRAdI2pZBbbxp9PQSpTqZIV3l/view?usp=drive_link
     //https://drive.google.com/file/d/1hgpJ2O7KKqr8cTLV3gs_Oc8_ooBeqb4R/view?usp=drive_link*//
     <div className="flex justify-center py-4">
+=======
+    <div className="flex justify-center px-4 py-4">
+>>>>>>> 104fa4dfb909c3cf267944ab9d736277dff38fa6
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-screen-lg ">
         {/* Kaif*/}
         <div className="w-full bg-gray-200 rounded-xl shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform duration-200">
@@ -55,7 +59,7 @@ export default function Crewcard() {
           {/* Amardeep and Outreach */}
           <div className="text-center mb-4">
             <h2 className="text-xl font-semibold text-gray-800">Amardeep Rao</h2>
-            <h3 className="text-gray-500">Outreach Coordinator</h3>
+            <h3 className="text-gray-500">Organizer</h3>
           </div>
 
           {/* Social Icons */}
@@ -86,7 +90,7 @@ export default function Crewcard() {
           {/* Name and Role */}
           <div className="text-center mb-4">
             <h2 className="text-xl font-semibold text-gray-800">Humaira Hashmi</h2>
-            <h3 className="text-gray-500">Community Manager</h3>
+            <h3 className="text-gray-500">Organizer</h3>
           </div>
 
           {/* Social Icons */}
@@ -116,7 +120,7 @@ export default function Crewcard() {
           {/* Name and Role */}
           <div className="text-center mb-4">
             <h2 className="text-xl font-semibold text-gray-800">Shivansh Saxena</h2>
-            <h3 className="text-gray-500">Technical-Lead</h3>
+            <h3 className="text-gray-500">Organizer</h3>
           </div>
 
           {/* Social Icons */}
@@ -146,7 +150,7 @@ export default function Crewcard() {
           {/* Name and Role */}
           <div className="text-center mb-4">
             <h2 className="text-xl font-semibold text-gray-800">Vikasdeep Sharma</h2>
-            <h3 className="text-gray-500">Event Manager</h3>
+            <h3 className="text-gray-500">Organizer</h3>
           </div>
 
           {/* Social Icons */}
@@ -176,7 +180,7 @@ export default function Crewcard() {
           {/* Name and Role */}
           <div className="text-center mb-4">
             <h2 className="text-xl font-semibold text-gray-800">Nitish Singh</h2>
-            <h3 className="text-gray-500">Mentorship Coordinator</h3>
+            <h3 className="text-gray-500">Organizer</h3>
           </div>
 
           {/* Social Icons */}
@@ -190,123 +194,7 @@ export default function Crewcard() {
           </div>
         </div>
 
-        <div className="w-[320px] bg-white rounded-xl shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform duration-200">
-          {/* Profile Image */}
-          <div className="w-auto h-auto rounded-lg overflow-hidden mb-4 border-4 border-gray-200">
-            <Image
-              src="https://drive.google.com/uc?export=view&id=1hgpJ2O7KKqr8cTLV3gs_Oc8_ooBeqb4R"
-              width={180}
-              height={180}
-              alt="Profile"
-              className="object-cover w-full h-full"
-            />
-          </div>
-
-          {/* Name and Role */}
-          <div className="text-center mb-4">
-            <h2 className="text-xl font-semibold text-gray-800">Aryan</h2>
-            <h3 className="text-gray-500">Judging Coordinator</h3>
-          </div>
-
-          {/* Social Icons */}
-          <div className="flex justify-center gap-4 mt-2">
-            <a href="https://www.linkedin.com/in/kaif9999" target="_blank" rel="noopener noreferrer">
-              <FaLinkedin className="text-blue-600 text-3xl hover:scale-105 transition-transform duration-200" />
-            </a>
-            <a href="https://www.linkedin.com/in/kaif9999" target="_blank" rel="noopener noreferrer">
-              <FaTwitterSquare className="text-blue-500 text-3xl hover:scale-105 transition-transform duration-200" />
-            </a>
-          </div>
-        </div>
-
-        <div className="w-[320px] bg-white rounded-xl shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform duration-200">
-          {/* Profile Image */}
-          <div className="w-auto h-auto rounded-lg overflow-hidden mb-4 border-4 border-gray-200">
-            <Image
-              src="https://drive.google.com/uc?export=view&id=1hgpJ2O7KKqr8cTLV3gs_Oc8_ooBeqb4R"
-              width={180}
-              height={180}
-              alt="Profile"
-              className="object-cover w-full h-full"
-            />
-          </div>
-
-          {/* Name and Role */}
-          <div className="text-center mb-4">
-            <h2 className="text-xl font-semibold text-gray-800">Uttkarsh</h2>
-            <h3 className="text-gray-500">Design and Media Coordinator</h3>
-          </div>
-
-          {/* Social Icons */}
-          <div className="flex justify-center gap-4 mt-2">
-            <a href="https://www.linkedin.com/in/kaif9999" target="_blank" rel="noopener noreferrer">
-              <FaLinkedin className="text-blue-600 text-3xl hover:scale-105 transition-transform duration-200" />
-            </a>
-            <a href="https://www.linkedin.com/in/kaif9999" target="_blank" rel="noopener noreferrer">
-              <FaTwitterSquare className="text-blue-500 text-3xl hover:scale-105 transition-transform duration-200" />
-            </a>
-          </div>
-        </div>
-
-        <div className="w-[320px] bg-white rounded-xl shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform duration-200">
-          {/* Profile Image */}
-          <div className="w-auto h-auto rounded-lg overflow-hidden mb-4 border-4 border-gray-200">
-            <Image
-              src="https://drive.google.com/uc?export=view&id=1v7dBh0nZiUgSEoBJ6N3HYTcfmNfqyb6a"
-              width={180}
-              height={180}
-              alt="Profile"
-              className="object-cover w-full h-full"
-            />
-          </div>
-
-          {/* Name and Role */}
-          <div className="text-center mb-4">
-            <h2 className="text-xl font-semibold text-gray-800">Katyayani</h2>
-            <h3 className="text-gray-500">Operations and Logistics Lead</h3>
-          </div>
-
-          {/* Social Icons */}
-          <div className="flex justify-center gap-4 mt-2">
-            <a href="https://www.linkedin.com/in/kaif9999" target="_blank" rel="noopener noreferrer">
-              <FaLinkedin className="text-blue-600 text-3xl hover:scale-105 transition-transform duration-200" />
-            </a>
-            <a href="https://www.linkedin.com/in/kaif9999" target="_blank" rel="noopener noreferrer">
-              <FaTwitterSquare className="text-blue-500 text-3xl hover:scale-105 transition-transform duration-200" />
-            </a>
-          </div>
-        </div>
-
-        <div className="w-[320px] bg-white rounded-xl shadow-lg p-8 flex flex-col items-center hover:scale-105 transition-transform duration-200">
-          {/* Profile Image */}
-          <div className="w-auto h-auto rounded-lg overflow-hidden mb-4 border-4 border-gray-200">
-            <Image
-            //https://drive.google.com/file/d/1v7dBh0nZiUgSEoBJ6N3HYTcfmNfqyb6a/view?usp=drive_link
-              src="https://drive.google.com/uc?export=view&id=1v7dBh0nZiUgSEoBJ6N3HYTcfmNfqyb6a"
-              width={180}
-              height={180}
-              alt="Profile"
-              className="object-cover w-full h-full"
-            />
-          </div>
-
-          {/* Name and Role */}
-          <div className="text-center mb-4">
-            <h2 className="text-xl font-semibold text-gray-800">Kavyashree</h2>
-            <h3 className="text-gray-500">Volunteers Coordinator</h3>
-          </div>
-
-          {/* Social Icons */}
-          <div className="flex justify-center gap-4 mt-2">
-            <a href="https://www.linkedin.com/in/kaif9999" target="_blank" rel="noopener noreferrer">
-              <FaLinkedin className="text-blue-600 text-3xl hover:scale-105 transition-transform duration-200" />
-            </a>
-            <a href="https://www.linkedin.com/in/kaif9999" target="_blank" rel="noopener noreferrer">
-              <FaTwitterSquare className="text-blue-500 text-3xl hover:scale-105 transition-transform duration-200" />
-            </a>
-          </div>
-        </div>
-
+        
       </div>
     </div>
   );
