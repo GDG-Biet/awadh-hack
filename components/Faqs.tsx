@@ -15,8 +15,8 @@ type Props = {
 export default function Home() {
   const [active, setActive] = useState([false, false, false, false, false]);
   return (
-    <div className='w-full p-10 m-10'>
-      <div className='grid place-items-center w-5/6 m-auto bg-slate-600 px-10 py-2 bg-opacity-20 rounded-2xl'>
+    <div className='w-full p-10 md:m-10'>
+      <div className='grid place-items-center md:w-5/6 m-auto bg-slate-600 px-10 py-2 bg-opacity-20 rounded-2xl'>
       {data.map((que)=>{
         return (
             <div className='w-full' key={que.idx}>

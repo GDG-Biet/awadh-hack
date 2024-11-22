@@ -17,7 +17,7 @@
   },
   {
       "idx": 4,
-      "question":"Do I need to have any specific qualifications to be a participant for the hackathon?",
+      "question":"Can I participate in hackathon?",
       "answer":"If you love to code, you are more than welcome to participate in the hackathon."
   },
   {
@@ -32,7 +32,7 @@
   },
   {
       "idx": 7,
-      "question":"Is there any registration fees for participation?",
+      "question":"Is there any fees for participation?",
       "answer":"We don't want to monetize learning, community, and innovation. So, There is no participation/registration fees."
   },
   {

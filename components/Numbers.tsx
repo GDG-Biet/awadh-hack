@@ -5,8 +5,8 @@ import mandala from "@/Assets/madala.png"
 
 
 export default function Numbers(){
-    return <div className="w-full h-[60vh] flex justify-evenly items-center ">
-      <Parallax speed={5}>
+    return <div className="w-full flex md:flex-row flex-col justify-evenly items-center ">
+      <Parallax speed={1}>
     <div className="w-60 h-60 p-5 flex justify-center items-center border-amber-700">
       <div className="felx flex-col justify-center hover:border-b-8 hover:border-amber-400 text-6xl font-extrabold duration-200">
         <p className="text-center text-white">12+</p>
@@ -15,7 +15,7 @@ export default function Numbers(){
       </div>
     </div>
     </Parallax>
-    <Parallax speed={-5}>
+    <Parallax speed={-1}>
     <div className="w-60 h-60 p-5 flex justify-center items-center border-amber-700">
       <div className="flex flex-col justify-center hover:border-b-8 hover:border-amber-400 text-6xl font-extrabold duration-300">
         <p className="text-center text-white">24+</p>
@@ -24,7 +24,7 @@ export default function Numbers(){
       </div>
     </div>
     </Parallax>
-    <Parallax speed={5}>
+    <Parallax speed={1}>
     <div className="w-60 h-60 p-5 flex justify-center items-center border-amber-700">
       <div className="felx flex-col justify-center hover:border-b-8 hover:border-amber-400 text-6xl font-extrabold duration-200">
         <p className="text-center text-white">150+</p>
