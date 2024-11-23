@@ -15,14 +15,16 @@ export default function Navbar(){
 
 function Logo() {
   return (
-    <div className=" text-white h-auto w-auto rounded-3xl pl-5">
-      <Image
-        className="object-contain rounded-3xl"
-        height={150}
-        width={150}
-        src={logo}
-        alt=""
-      ></Image>
+    <div className=" text-white h-auto w-auto rounded-3xl pl-5 cursor-pointer">
+      <Link href="/">
+        <Image
+          className="object-contain rounded-3xl fill-slate-950 "
+          height={150}
+          width={150}
+          src={logo}
+          alt="logo"
+        ></Image>
+      </Link>
     </div>
   );
 }
@@ -38,4 +40,5 @@ function Menu(){
             <li className="font-semibold"><a href="#sponsor">Sponsor</a></li>
         </ul>
     </div>
+  
 }
