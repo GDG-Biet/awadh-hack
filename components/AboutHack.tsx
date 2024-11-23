@@ -11,7 +11,7 @@ export default function AboutHack() {
       >
         <div className="w-full h-full bg-black bg-opacity-50 flex justify-center items-center p-20">
           <p className="font-semibold text-2xl text-white">
-            AwadhHacks is an exciting 24-hour hackathon held in Lucknow,
+            Awadh Hacks is an exciting 24-hour hackathon held in Lucknow,
             Uttar Pradesh, India. This intense, time-bound event invites
             participants to ideate, build, and present innovative solutions to a
             panel of judges, all within a single day. AwadhHacks is designed to

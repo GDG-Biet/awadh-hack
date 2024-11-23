@@ -1,5 +1,6 @@
 import Image from "next/image";
-import logo from "@/Assets/logo.png";
+// import logo from "@/Assets/logo.png";
+import footer from "@/Assets/Footer.png";
 
 export function Footer() {
   return (
@@ -10,13 +11,11 @@ export function Footer() {
           <div className="w-10 h-1 bg-blue-500"></div>
           <p className="text-xl font-medium text-amber-400"></p>
         </div>
-        <div className="w-full h-20 flex justify-center">
+        <div className="w-full h-10 flex justify-center">
           <Image
-            className="rounded-2xl bg-slate-900"
-            src={logo}
+            className="rounded-2xl h-[300px] w-[700px]"
+            src={footer}
             alt="awadhhacks-logo"
-            width={300}
-            height={100}
           ></Image>
         </div>
         <div className="w-2/3 h-20 flex flex-col justify-end gap-1">

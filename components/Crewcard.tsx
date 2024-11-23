@@ -22,7 +22,7 @@ export default function Crewcard() {
           {/* Name and Role */}
           <div className="text-center mb-4">
             <h2 className="text-xl font-semibold text-gray-800">Kaif</h2>
-            <h3 className="text-gray-500">Lead-Organizer</h3>
+            <h3 className="text-gray-500">Organizer</h3>
           </div>
 
           {/* Social Icons */}
