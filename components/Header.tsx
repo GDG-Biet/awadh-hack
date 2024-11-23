@@ -12,7 +12,7 @@ export default function Header() {
         <Stars />
         <div className="h-full w-full text-center flex justify-center items-center flex-col ">
           <h1 className="text-yellow-200 md:text-9xl text-6xl font-extrabold ">
-            Awadh-Hack
+            Awadh Hacks
           </h1>
 
           <div className="md:w-1/3 w-2/3 flex md:flex-row flex-col gap-5 mt-24 z-20">
