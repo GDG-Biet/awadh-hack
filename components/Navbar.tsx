@@ -40,5 +40,5 @@ function Menu(){
             <li className="font-semibold"><a href="#sponsor">Sponsor</a></li>
         </ul>
     </div>
-  );
+  
 }
