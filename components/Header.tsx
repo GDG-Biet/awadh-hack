@@ -27,7 +27,7 @@ export default function Header() {
                 className="md:w-1/2 bg-black px-20 md:py-3 py-5 text-center md:border-b-4 border-2 border-amber-500"
                 style={{ borderRadius: "10px" }}
               >
-               <Link href="https://discord.gg/fdNgdRE4"><h3 className="text-amber-500 font-semibold text-center ">Discord</h3></Link>
+               <Link href="https://discord.gg/mEhNy8hv"><h3 className="text-amber-500 font-semibold text-center ">Discord</h3></Link>
               </div>
             
           </div>
